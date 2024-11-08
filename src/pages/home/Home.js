@@ -1,23 +1,20 @@
 import React from "react";
 import Profil from "../../components/profil/Profil"
+import About from "../../components/about/About";
+import Projects from "../../components/projets/Projetcs";
+import Contact from "../../components/contact/Contact";
+import Skills from "../../components/skills/Skills"
+
 
 
 const Home = () => {
   return (
     <div>
-       <Profil />  {/* Ajoutez le composant Profil ici */}
-       {/* Autres sections de la page d'accueil */}
-      <section id="presentation">
-        
-      </section>
-
-      <section id="projets">
-        
-      </section>
-
-      <section id="contact">
-        
-      </section>
+       <Profil />  
+      <About id="about"/>
+        <Projects id="projects"/>
+        <Skills id="skills"/>
+        <Contact id="contact"/>
     </div>
   );
 };

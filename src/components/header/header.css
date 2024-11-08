@@ -1,16 +1,10 @@
-html {
-  scroll-behavior: smooth;
-}
-
 .portfolio_header {
   width: 100%;
   display: flex;
   justify-content: space-between; /* Aligne les éléments aux extrémités */
   align-items: center;
   padding: 20px;
-  position: absolute;
   top: 0;
-  width: 100%;
 }
 
 .logo_morgane {
@@ -18,20 +12,21 @@ html {
   height: 60px;
   float: left;
   mix-blend-mode: multiply;
+  cursor: pointer;
 }
 .nav-links {
   display: flex;
   gap: 20px;
-  width: 45%;
+  width: 47%;
 }
 
 .nav-links a {
-  color: yellow;
+  color: pink;
   text-decoration: none;
   font-size: 20px;
   transition: color 0.3s ease;
 }
 
 .nav-links a:hover {
-  color: #1890ff; /* Couleur de survol */
+  color: yellow; /* Couleur de survol */
 }
