@@ -1,29 +1,26 @@
 .portfolio_header {
-  width: 100%;
   display: flex;
-  justify-content: space-between; /* Aligne les éléments aux extrémités */
-  align-items: center;
-  padding: 20px;
-  top: 0;
+  justify-content: space-between;
+  padding: 15px;
 }
 
 .logo_morgane {
-  width: 15%;
-  height: 60px;
-  float: left;
+  height: 68px;
+  width: 210px;
   mix-blend-mode: multiply;
-  cursor: pointer;
 }
 .nav-links {
   display: flex;
   gap: 20px;
-  width: 47%;
+  width: 45%;
 }
 
 .nav-links a {
   color: pink;
   text-decoration: none;
   font-size: 20px;
+  position: relative;
+  line-height: 34px;
   transition: color 0.3s ease;
 }
 

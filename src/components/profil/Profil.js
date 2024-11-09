@@ -6,12 +6,10 @@ import "./profil.css";
 function Profil() {
   return (
     <div className="cover">
-      <div className="gif">
+      <div className="gif-photo">
       <img src={HanCoding} alt="gif-dev" className="gif_morgane"/>
+      <img src={Photodeprofil} alt="portfolio-de-morgane" className="photo_morgane"/>
       </div>
-    <div className="profile-img">
-            <img src={Photodeprofil} alt="portfolio-de-morgane" className="photo_morgane"/>
-            </div>
         <div className="description">
         <div className="portfolio-title">Morgane Cobigo</div>
         <div className="portfolio-subtitle">Développeur Intégrateur Web</div>

@@ -1,9 +1,9 @@
 .footer {
   background: linear-gradient(to bottom right, #b3e5fc, #81d4fa);
-  padding: 20px;
-  text-align: center;
-  bottom: 0;
   width: 100%;
+  text-align: center;
+  padding: 60px;
+  padding-bottom: 15px;
 }
 
 .social-links {

@@ -1,0 +1,67 @@
+.skills-section {
+  text-align: center;
+  padding: 20px;
+}
+
+.skills-section h2 {
+  color: #9ad0e8;
+  font-size: 30px;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px; /* Largeur fixe pour des alignements plus cohérents */
+}
+
+.skill-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.skill-details {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skill-name {
+  font-weight: bold;
+  margin-bottom: 8px; /* Espace entre le nom et le thermomètre */
+}
+
+.skill-thermometer {
+  width: 30px;
+  height: 100px;
+  background-color: #ffffe0;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+  margin: 10px 0;
+  display: flex;
+  align-items: flex-end; /* Assure que le remplissage commence en bas */
+}
+
+.thermo-fill {
+  background-color: #9ad0e8;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  transition: height 0.3s ease;
+}
+
+.skill-level {
+  color: #9ad0e8;
+  font-size: 15px;
+  margin-top: 5px; /* Espace entre le thermomètre et le niveau de compétence */
+}
