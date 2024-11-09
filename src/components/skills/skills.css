@@ -1,10 +1,11 @@
 .skills-section {
   text-align: center;
   padding: 20px;
+  background-color: #faf7f4;
 }
 
 .skills-section h2 {
-  color: #9ad0e8;
+  color: #333333;
   font-size: 30px;
 }
 
@@ -26,6 +27,7 @@
   width: 50px;
   height: 50px;
   margin-bottom: 10px;
+  mix-blend-mode: multiply;
 }
 
 .skill-details {
@@ -43,7 +45,7 @@
 .skill-thermometer {
   width: 30px;
   height: 100px;
-  background-color: #ffffe0;
+  background-color: #e5dcd3;
   border-radius: 15px;
   overflow: hidden;
   position: relative;
@@ -53,7 +55,7 @@
 }
 
 .thermo-fill {
-  background-color: #9ad0e8;
+  background-color: #d9c8b8;
   width: 100%;
   position: absolute;
   bottom: 0;
@@ -61,7 +63,7 @@
 }
 
 .skill-level {
-  color: #9ad0e8;
+  color: #d9c8b8;
   font-size: 15px;
   margin-top: 5px; /* Espace entre le thermomètre et le niveau de compétence */
 }

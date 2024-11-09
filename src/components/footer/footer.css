@@ -1,5 +1,5 @@
 .footer {
-  background: linear-gradient(to bottom right, #b3e5fc, #81d4fa);
+  background-color: #d9c8b8;
   width: 100%;
   text-align: center;
   padding: 60px;
@@ -27,5 +27,5 @@
 }
 
 .social-links a:hover {
-  color: yellow; /* Couleur au survol */
+  color: #333333; /* Couleur au survol */
 }

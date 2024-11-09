@@ -2,12 +2,12 @@
   width: 100%;
   text-align: center;
   padding: 60px;
-  background-color: #fcbf82;
+  background-color: #f0e6de;
 }
 
 .contact_phrase {
   text-align: center;
-  color: hotpink;
+  color: #ffffff;
   margin: 45px;
   font-size: 20px;
   text-transform: uppercase;
@@ -29,7 +29,7 @@
   align-items: center;
   margin-bottom: 5px;
   font-weight: bold;
-  color: white;
+  color: #333333;
   font-size: 15px;
 }
 
@@ -42,6 +42,7 @@
   resize: vertical;
   outline: none;
   display: block;
+  background-color: #faf7f4;
 }
 .contact-form textarea {
   padding-top: 20px;
@@ -50,15 +51,15 @@
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-  outline: 2px solid yellow;
+  outline: 2px solid #f0e6de;
 }
 
 .contact-form button {
   width: 54%;
   padding: 7px;
   border: none;
-  background-color: hotpink;
-  color: white;
+  background-color: #d9c8b8;
+  color: #333333;
   font-size: 15px;
   border-radius: 5px;
   cursor: pointer;
@@ -68,5 +69,5 @@
 }
 
 .contact-form button:hover {
-  background-color: yellow;
+  background-color: #e5dcd3;
 }

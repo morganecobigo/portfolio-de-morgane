@@ -2,12 +2,12 @@
   width: 100%;
   text-align: center;
   padding: 60px;
-  background-color: #f4a9a8;
+  background-color: #d9c8b8;
 }
 h3 {
   font-size: 30px;
   font-weight: bold;
-  color: white;
+  color: #333333;
 }
 .projects-container {
   display: flex;
@@ -23,7 +23,7 @@ h3 {
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease-in-out;
-  background-color: #ffd5d9;
+  background-color: #f0e6de;
   padding: 10px 10px 10px 10px;
 }
 
@@ -52,7 +52,7 @@ h3 {
 }
 
 .modal-content {
-  background-color: #f4a9a8;
+  background-color: #d9c8b8;
   padding: 20px;
   border-radius: 8px;
   width: 80%;
@@ -73,28 +73,28 @@ h3 {
   right: 15px;
   font-size: 24px;
   cursor: pointer;
-  color: #fff;
+  color: #333333;
 }
 
 .modal-content h4 {
   margin-top: 15px;
-  color: #fff;
+  color: #333333;
 }
 .modal-content p {
-  color: #fff;
+  color: #333333;
 }
 
 .modal-content a {
   display: inline-block;
   margin-top: 15px;
   padding: 8px 12px;
-  background-color: #ffd5d9;
-  color: #fff;
+  background-color: #f0e6de;
+  color: #333333;
   font-weight: bold;
   text-decoration: none;
   border-radius: 4px;
 }
 
 .modal-content a:hover {
-  background-color: #9ad0e8;
+  background-color: #faf7f4;
 }
