@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link as RouterLink } from "react-router-dom";
 import { Link, scroller } from "react-scroll";
-import logo from "../../assets/logo/logo.png";
+import logo from "../../assets/logo/logo.webp";
 import "./header.css";
 
 function Header() {
