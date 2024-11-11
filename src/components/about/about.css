@@ -1,17 +1,33 @@
-.about-me {
+.about-container {
   background-color: #e5dcd3;
-  width: 100%;
   text-align: center;
   padding: 60px;
 }
 
-.about-me h2 {
-  color: #333333;
-  margin-bottom: 10px;
-  font-size: 30px;
+.about-me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  margin-top: 20px;
 }
 
-.about-me p {
+.about-me h2 {
+  color: #333333;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.photo_morgane {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.about-text {
   font-size: 15px;
-  color: #fff;
+  color: #333333;
+  margin-bottom: 10px;
+  text-align: left;
+  max-width: 600px;
 }

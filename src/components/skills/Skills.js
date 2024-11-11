@@ -2,9 +2,9 @@ import React from "react";
 import "./skills.css";
 import { skillsList } from "./skillsList";
 
-function Skills() {
+function Skills({ id }) {
   return (
-    <div className="skills-section">
+    <div id={id} className="skills-section">
       <h2>MES COMPÉTENCES</h2>
       <div className="skills-list">
         {skillsList.map((skill, index) => (
