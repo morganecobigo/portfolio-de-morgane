@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { Link as RouterLink } from "react-router-dom";
 import { Link, scroller } from "react-scroll";
+import cvPDF from "../../assets/cv/cvmorgane.pdf"; // Importez le PDF
 import logo from "../../assets/logo/logo.webp";
 import "./header.css";
 
@@ -30,6 +30,10 @@ function Header() {
       offset: -70, // Décalage (ajustez si nécessaire)
     });
   };
+  // Fonction pour ouvrir le PDF dans un nouvel onglet
+  const openCvInNewTab = () => {
+    window.open(cvPDF, "CV"); // Ouvre le PDF dans un onglet nommé "CV"
+  };
 
   return (
     <header className="portfolio_header" id="header">
@@ -48,7 +52,10 @@ function Header() {
         <Link to="contact" smooth={true} duration={500}>
           Contact
         </Link>
-        <RouterLink to="/cv">Mon CV</RouterLink>
+        <span onClick={openCvInNewTab} style={{ cursor: "pointer" }}>
+          Mon CV
+        </span>{" "}
+        {/* Utilise un span cliquable pour ouvrir le PDF */}
       </nav>
       <div className={`back-to-top ${isVisible ? "visible" : ""}`}>
         <div className="arrow" onClick={scrollToTop}>
