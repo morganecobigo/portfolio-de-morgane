@@ -31,3 +31,11 @@
   text-align: left;
   max-width: 600px;
 }
+@media (max-width: 480px) {
+  .about-me {
+    display: block;
+  }
+  .about-text {
+    text-align: center;
+  }
+}

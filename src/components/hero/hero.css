@@ -71,3 +71,23 @@
     opacity: 1;
   }
 }
+
+@media (max-width: 768px) {
+  .cover {
+    height: 75vh;
+  }
+}
+@media (max-width: 480px) {
+  .cover {
+    height: 22vh;
+  }
+  .portfolio-title {
+    font-size: 20px;
+  }
+  .portfolio-subtitle {
+    font-size: 10px;
+  }
+  .portfolio-text {
+    font-size: 7px;
+  }
+}

@@ -12,6 +12,7 @@
   width: 210px;
   mix-blend-mode: multiply;
 }
+
 .nav-links {
   display: flex;
   justify-content: center;
@@ -21,18 +22,19 @@
   cursor: pointer;
 }
 
-.nav-links a,
-span {
-  color: black;
-  text-decoration: none;
-  font-size: 20px;
-  position: relative;
-  line-height: 34px;
-  transition: color 0.3s ease;
+/* Style de l'icône Hamburger */
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  z-index: 2; /* Priorité plus élevée pour que l'icône hamburger soit cliquable */
 }
 
-.nav-links a:hover {
-  color: #faf7f4; /* Couleur de survol */
+.menu-toggle .bar {
+  width: 25px;
+  height: 3px;
+  background-color: #faf7f4;
+  margin: 5px 0;
 }
 
 .back-to-top {
@@ -40,7 +42,7 @@ span {
   bottom: 30px;
   right: 30px;
   background-color: #e5dcd3;
-  color: #333333;
+  color: #faf7f4;
   border-radius: 10px;
   padding: 10px;
   cursor: pointer;
@@ -48,15 +50,44 @@ span {
   visibility: hidden;
   transition: opacity 0.3s ease, visibility 0.3s ease;
   font-size: 24px;
-  z-index: 1000; /* S'assurer que la flèche est au-dessus des autres éléments */
+  z-index: 1000;
 }
 
 .back-to-top.visible {
   opacity: 1;
   visibility: visible;
 }
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: flex;
+    margin: 40px;
+  }
+  .nav-links {
+    display: none; /* Cache les liens sur mobile et tablette */
+    width: 100%;
+    flex-direction: column;
+    background-color: #faf7f4;
+    position: absolute;
+    top: 100px; /* Ajustez selon la hauteur de votre header */
+    left: 0;
+    padding: 10px 0;
+    z-index: 1000; /* Pour être au-dessus des autres éléments */
+    opacity: 0; /* Masqué par défaut */
+    visibility: hidden; /* Masqué par défaut */
+    transition: opacity 0.3s ease, visibility 0s 0.3s; /* Transition fluide */
+  }
 
-/* Pour un effet visuel au survol */
-.back-to-top:hover {
-  background-color: #f0e6de;
+  /* Quand le menu est ouvert, la classe 'open' s'ajoute, et le menu devient visible */
+  .nav-links.open {
+    display: flex; /* Affiche les liens de navigation lorsqu'ils sont ouverts */
+    opacity: 1; /* Rendre visible */
+    visibility: visible; /* Assurer la visibilité */
+    transition: opacity 0.3s ease, visibility 0s 0s; /* Transition fluide */
+  }
+  .nav-links a,
+  span {
+    margin: 10px 0;
+    text-align: center;
+    color: #333333;
+  }
 }
