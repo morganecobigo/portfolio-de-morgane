@@ -35,6 +35,9 @@
   .about-me {
     display: block;
   }
+  h2 {
+    font-size: 20px;
+  }
   .about-text {
     text-align: center;
   }
