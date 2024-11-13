@@ -11,20 +11,20 @@
   margin: 0;
   display: flex;
   justify-content: center;
-  gap: 20px; /* Espacement entre les icônes */
+  gap: 20px;
 }
 
 .footer p {
   margin-top: 10px;
-  font-size: 14px;
-  color: white;
+  font-size: 18px;
+  color: #333333;
 }
 .social-links a {
-  color: white; /* Couleur par défaut des icônes */
-  font-size: 30px; /* Taille des icônes */
+  color: #333333;
+  font-size: 30px;
   transition: color 0.3s ease;
 }
 
 .social-links a:hover {
-  color: #333333; /* Couleur au survol */
+  color: #faf7f4;
 }

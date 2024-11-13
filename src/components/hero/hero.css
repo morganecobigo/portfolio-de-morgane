@@ -20,7 +20,6 @@
 .description {
   position: relative;
   z-index: 2; /* Assure que le texte est au-dessus de l'image */
-  color: white;
   text-align: center;
   padding: 20px;
   animation: fadeInText 2s ease-out forwards;
@@ -80,6 +79,8 @@
 @media (max-width: 480px) {
   .cover {
     height: 22vh;
+  }
+  .description {
   }
   .portfolio-title {
     font-size: 20px;

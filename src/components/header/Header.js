@@ -40,9 +40,9 @@ function Header() {
   };
   return (
     <header className="portfolio_header" id="header">
+      <h1>Portfolio Morgane</h1>
       <img src={logo} alt="portfolio-de-morgane" className="logo_morgane" />
       <nav className={`nav-links ${isMenuOpen ? "open" : ""}`}>
-        {/* Liens de scroll vers les sections de la même page */}
         <Link to="about" smooth={true} duration={500}>
           Ma présentation
         </Link>
@@ -60,7 +60,6 @@ function Header() {
         </span>{" "}
         {/* Utilise un span cliquable pour ouvrir le PDF */}
       </nav>
-      {/* Menu Hamburger */}
       <li className="menu-toggle" onClick={toggleMenu}>
         <span className="bar"></span>
         <span className="bar"></span>

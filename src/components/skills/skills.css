@@ -64,7 +64,21 @@
 }
 
 .skill-level {
-  color: #d9c8b8;
+  color: #333333;
   font-size: 15px;
   margin-top: 5px; /* Espace entre le thermomètre et le niveau de compétence */
+}
+@media (max-width: 480px) {
+  .skills-section h2 {
+    font-size: 20px;
+  }
+  .skill-item {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .skill-name {
+    font-size: 7px;
+  }
 }
