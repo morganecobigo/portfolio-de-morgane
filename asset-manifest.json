@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/portfolio-de-morgane/static/css/main.9c6e8656.css",
+    "main.js": "/portfolio-de-morgane/static/js/main.391676fc.js",
+    "static/js/453.31ddcefd.chunk.js": "/portfolio-de-morgane/static/js/453.31ddcefd.chunk.js",
+    "static/media/sass.gif": "/portfolio-de-morgane/static/media/sass.772d6d4ba8f56ac65753.gif",
+    "static/media/ridingcities.webp": "/portfolio-de-morgane/static/media/ridingcities.85b9426cc3c011584230.webp",
+    "static/media/ninacarducci.webp": "/portfolio-de-morgane/static/media/ninacarducci.730207cd51d53fc77d98.webp",
+    "static/media/ohmyfood1.webp": "/portfolio-de-morgane/static/media/ohmyfood1.c6e3dd9eaeaf65b938f7.webp",
+    "static/media/kasa.webp": "/portfolio-de-morgane/static/media/kasa.4bf9b4d7e103c8d52d1a.webp",
+    "static/media/codage.gif": "/portfolio-de-morgane/static/media/codage.110f79ccfe52c323d048.gif",
+    "static/media/printit.webp": "/portfolio-de-morgane/static/media/printit.6d2faca852e5b3095516.webp",
+    "static/media/seo.gif": "/portfolio-de-morgane/static/media/seo.37c3a3fdc9734aae1022.gif",
+    "static/media/argentbank.webp": "/portfolio-de-morgane/static/media/argentbank.c21772cac8fe579fc1af.webp",
+    "static/media/sophiebluel.webp": "/portfolio-de-morgane/static/media/sophiebluel.c2d3a38a0c041796a835.webp",
+    "static/media/booki.webp": "/portfolio-de-morgane/static/media/booki.e36bfefaeef9133284cc.webp",
+    "static/media/designworkspace.webp": "/portfolio-de-morgane/static/media/designworkspace.a62a6cdc13e2da6b91f4.webp",
+    "static/media/724events.webp": "/portfolio-de-morgane/static/media/724events.d3b9c0005644ce4cdf4a.webp",
+    "static/media/cvmorgane.pdf": "/portfolio-de-morgane/static/media/cvmorgane.27565b56d052ea00399f.pdf",
+    "static/media/wordpress.gif": "/portfolio-de-morgane/static/media/wordpress.d5e0a872cc781c2f5d4b.gif",
+    "static/media/react.gif": "/portfolio-de-morgane/static/media/react.4b4a9e4ca6986a3409c7.gif",
+    "static/media/me.webp": "/portfolio-de-morgane/static/media/me.26a68a1495c9d7548443.webp",
+    "static/media/logo.webp": "/portfolio-de-morgane/static/media/logo.e388cb36880418268c38.webp",
+    "index.html": "/portfolio-de-morgane/index.html",
+    "main.9c6e8656.css.map": "/portfolio-de-morgane/static/css/main.9c6e8656.css.map",
+    "main.391676fc.js.map": "/portfolio-de-morgane/static/js/main.391676fc.js.map",
+    "453.31ddcefd.chunk.js.map": "/portfolio-de-morgane/static/js/453.31ddcefd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c6e8656.css",
+    "static/js/main.391676fc.js"
+  ]
+}
