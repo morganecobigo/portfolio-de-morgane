@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-de-morgane/static/css/main.9c6e8656.css",
+    "main.css": "/portfolio-de-morgane/static/css/main.9ff01cf4.css",
     "main.js": "/portfolio-de-morgane/static/js/main.bc399529.js",
     "static/js/453.31ddcefd.chunk.js": "/portfolio-de-morgane/static/js/453.31ddcefd.chunk.js",
     "static/media/sass.gif": "/portfolio-de-morgane/static/media/sass.772d6d4ba8f56ac65753.gif",
@@ -22,12 +22,12 @@
     "static/media/me.webp": "/portfolio-de-morgane/static/media/me.26a68a1495c9d7548443.webp",
     "static/media/logo.webp": "/portfolio-de-morgane/static/media/logo.9bca5fa694ec2d41794f.webp",
     "index.html": "/portfolio-de-morgane/index.html",
-    "main.9c6e8656.css.map": "/portfolio-de-morgane/static/css/main.9c6e8656.css.map",
+    "main.9ff01cf4.css.map": "/portfolio-de-morgane/static/css/main.9ff01cf4.css.map",
     "main.bc399529.js.map": "/portfolio-de-morgane/static/js/main.bc399529.js.map",
     "453.31ddcefd.chunk.js.map": "/portfolio-de-morgane/static/js/453.31ddcefd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c6e8656.css",
+    "static/css/main.9ff01cf4.css",
     "static/js/main.bc399529.js"
   ]
 }
