@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-de-morgane/static/css/main.9c6e8656.css",
-    "main.js": "/portfolio-de-morgane/static/js/main.bb4617d8.js",
+    "main.js": "/portfolio-de-morgane/static/js/main.bc399529.js",
     "static/js/453.31ddcefd.chunk.js": "/portfolio-de-morgane/static/js/453.31ddcefd.chunk.js",
     "static/media/sass.gif": "/portfolio-de-morgane/static/media/sass.772d6d4ba8f56ac65753.gif",
     "static/media/ridingcities.webp": "/portfolio-de-morgane/static/media/ridingcities.85b9426cc3c011584230.webp",
@@ -23,11 +23,11 @@
     "static/media/logo.webp": "/portfolio-de-morgane/static/media/logo.9bca5fa694ec2d41794f.webp",
     "index.html": "/portfolio-de-morgane/index.html",
     "main.9c6e8656.css.map": "/portfolio-de-morgane/static/css/main.9c6e8656.css.map",
-    "main.bb4617d8.js.map": "/portfolio-de-morgane/static/js/main.bb4617d8.js.map",
+    "main.bc399529.js.map": "/portfolio-de-morgane/static/js/main.bc399529.js.map",
     "453.31ddcefd.chunk.js.map": "/portfolio-de-morgane/static/js/453.31ddcefd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9c6e8656.css",
-    "static/js/main.bb4617d8.js"
+    "static/js/main.bc399529.js"
   ]
 }
