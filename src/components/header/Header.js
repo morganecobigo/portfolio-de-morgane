@@ -41,7 +41,13 @@ function Header() {
   return (
     <header className="portfolio_header" id="header">
       <h1>Portfolio Morgane</h1>
-      <img src={logo} alt="portfolio-de-morgane" className="logo_morgane" />
+      <img
+        src={logo}
+        alt="portfolio-de-morgane"
+        className="logo_morgane"
+        height={68}
+        width={201}
+      />
       <nav className={`nav-links ${isMenuOpen ? "open" : ""}`}>
         <Link to="about" smooth={true} duration={500}>
           Ma présentation
