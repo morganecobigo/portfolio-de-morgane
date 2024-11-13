@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-de-morgane/static/css/main.9c6e8656.css",
-    "main.js": "/portfolio-de-morgane/static/js/main.391676fc.js",
+    "main.js": "/portfolio-de-morgane/static/js/main.bb4617d8.js",
     "static/js/453.31ddcefd.chunk.js": "/portfolio-de-morgane/static/js/453.31ddcefd.chunk.js",
     "static/media/sass.gif": "/portfolio-de-morgane/static/media/sass.772d6d4ba8f56ac65753.gif",
     "static/media/ridingcities.webp": "/portfolio-de-morgane/static/media/ridingcities.85b9426cc3c011584230.webp",
@@ -20,14 +20,14 @@
     "static/media/wordpress.gif": "/portfolio-de-morgane/static/media/wordpress.d5e0a872cc781c2f5d4b.gif",
     "static/media/react.gif": "/portfolio-de-morgane/static/media/react.4b4a9e4ca6986a3409c7.gif",
     "static/media/me.webp": "/portfolio-de-morgane/static/media/me.26a68a1495c9d7548443.webp",
-    "static/media/logo.webp": "/portfolio-de-morgane/static/media/logo.e388cb36880418268c38.webp",
+    "static/media/logo.webp": "/portfolio-de-morgane/static/media/logo.9bca5fa694ec2d41794f.webp",
     "index.html": "/portfolio-de-morgane/index.html",
     "main.9c6e8656.css.map": "/portfolio-de-morgane/static/css/main.9c6e8656.css.map",
-    "main.391676fc.js.map": "/portfolio-de-morgane/static/js/main.391676fc.js.map",
+    "main.bb4617d8.js.map": "/portfolio-de-morgane/static/js/main.bb4617d8.js.map",
     "453.31ddcefd.chunk.js.map": "/portfolio-de-morgane/static/js/453.31ddcefd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9c6e8656.css",
-    "static/js/main.391676fc.js"
+    "static/js/main.bb4617d8.js"
   ]
 }
