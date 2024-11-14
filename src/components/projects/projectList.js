@@ -13,7 +13,7 @@ export const projectList = [
       "Pour Booki, j'ai intégré l'interface du site à l'aide de HTML et CSS. J'ai travaillé sur des maquettes complètes pour les versions desktop, tablette et mobile, en respectant les spécifications et contraintes techniques.",
     image: require("../../assets/imagemodal/booki.webp"),
     autres: ["HTML", "CSS", "FIGMA"],
-    link: "https://lien_vers_projet_2.com",
+    link: "https://github.com/morganecobigo/Booki",
   },
   {
     title: "Oh my food",
