@@ -1,40 +1,37 @@
 import React, { useEffect, useState } from "react";
 import { Link, scroller } from "react-scroll";
-import cvPDF from "../../assets/cv/cvmorgane.pdf"; // Importez le PDF
+import cvPDF from "../../assets/cv/cvmorgane.pdf";
 import logo from "../../assets/logo/logo.webp";
 import "./header.css";
 
 function Header() {
-  const [isVisible, setIsVisible] = useState(false); // État pour la visibilité de la flèche
-  const [isMenuOpen, setIsMenuOpen] = useState(false); // État pour le menu hamburger
-  // Fonction pour afficher/masquer la flèche selon la position de défilement
+  const [isVisible, setIsVisible] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const checkScrollTop = () => {
     if (!isVisible && window.pageYOffset > 400) {
-      setIsVisible(true); // Affiche la flèche si l'utilisateur a défilé plus de 400px
+      setIsVisible(true);
     } else if (isVisible && window.pageYOffset <= 400) {
-      setIsVisible(false); // Masque la flèche si l'utilisateur est en haut
+      setIsVisible(false);
     }
   };
 
-  // Ajouter un écouteur d'événements pour surveiller le défilement de la page
   useEffect(() => {
     window.addEventListener("scroll", checkScrollTop);
     return () => window.removeEventListener("scroll", checkScrollTop);
   });
 
-  // Fonction pour faire défiler jusqu'en haut
   const scrollToTop = () => {
     scroller.scrollTo("header", {
-      smooth: true, // Active le défilement fluide
-      duration: 500, // Durée du défilement
-      offset: -70, // Décalage (ajustez si nécessaire)
+      smooth: true,
+      duration: 500,
+      offset: -70,
     });
   };
-  // Fonction pour ouvrir le PDF dans un nouvel onglet
+
   const openCvInNewTab = () => {
-    window.open(cvPDF, "CV"); // Ouvre le PDF dans un onglet nommé "CV"
+    window.open(cvPDF, "CV");
   };
-  // Fonction pour ouvrir le menu hamburger
+
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
@@ -64,7 +61,6 @@ function Header() {
         <span onClick={openCvInNewTab} style={{ cursor: "pointer" }}>
           Mon CV
         </span>{" "}
-        {/* Utilise un span cliquable pour ouvrir le PDF */}
       </nav>
       <li className="menu-toggle" onClick={toggleMenu}>
         <span className="bar"></span>
