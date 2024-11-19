@@ -24,6 +24,7 @@ h3 {
   transition: transform 0.2s ease-in-out;
   background-color: #f0e6de;
   padding: 10px 10px 10px 10px;
+  cursor: pointer;
 }
 
 .project-card:hover {
