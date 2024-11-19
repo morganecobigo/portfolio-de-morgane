@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-de-morgane/static/css/main.9ff01cf4.css",
-    "main.js": "/portfolio-de-morgane/static/js/main.e2859622.js",
+    "main.css": "/portfolio-de-morgane/static/css/main.2a78b25f.css",
+    "main.js": "/portfolio-de-morgane/static/js/main.c1fbfb24.js",
     "static/js/453.31ddcefd.chunk.js": "/portfolio-de-morgane/static/js/453.31ddcefd.chunk.js",
     "static/media/sass.gif": "/portfolio-de-morgane/static/media/sass.772d6d4ba8f56ac65753.gif",
     "static/media/ridingcities.webp": "/portfolio-de-morgane/static/media/ridingcities.85b9426cc3c011584230.webp",
@@ -16,18 +16,18 @@
     "static/media/booki.webp": "/portfolio-de-morgane/static/media/booki.e36bfefaeef9133284cc.webp",
     "static/media/designworkspace.webp": "/portfolio-de-morgane/static/media/designworkspace.a62a6cdc13e2da6b91f4.webp",
     "static/media/724events.webp": "/portfolio-de-morgane/static/media/724events.d3b9c0005644ce4cdf4a.webp",
-    "static/media/cvmorgane.pdf": "/portfolio-de-morgane/static/media/cvmorgane.27565b56d052ea00399f.pdf",
+    "static/media/cvmorgane.pdf": "/portfolio-de-morgane/static/media/cvmorgane.331ac8cadc09823eb529.pdf",
     "static/media/wordpress.gif": "/portfolio-de-morgane/static/media/wordpress.d5e0a872cc781c2f5d4b.gif",
     "static/media/react.gif": "/portfolio-de-morgane/static/media/react.4b4a9e4ca6986a3409c7.gif",
     "static/media/me.webp": "/portfolio-de-morgane/static/media/me.26a68a1495c9d7548443.webp",
     "static/media/logo.webp": "/portfolio-de-morgane/static/media/logo.9bca5fa694ec2d41794f.webp",
     "index.html": "/portfolio-de-morgane/index.html",
-    "main.9ff01cf4.css.map": "/portfolio-de-morgane/static/css/main.9ff01cf4.css.map",
-    "main.e2859622.js.map": "/portfolio-de-morgane/static/js/main.e2859622.js.map",
+    "main.2a78b25f.css.map": "/portfolio-de-morgane/static/css/main.2a78b25f.css.map",
+    "main.c1fbfb24.js.map": "/portfolio-de-morgane/static/js/main.c1fbfb24.js.map",
     "453.31ddcefd.chunk.js.map": "/portfolio-de-morgane/static/js/453.31ddcefd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ff01cf4.css",
-    "static/js/main.e2859622.js"
+    "static/css/main.2a78b25f.css",
+    "static/js/main.c1fbfb24.js"
   ]
 }
