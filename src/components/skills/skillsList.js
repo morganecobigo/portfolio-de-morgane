@@ -10,36 +10,29 @@ export const skillsList = [
   {
     name: "HTML & CSS",
     icon: htmlcssGif,
-    level: 95,
   },
   {
     name: "JAVASCRIPT",
     icon: jsGif,
-    level: 75,
   },
   {
     name: "REACT",
     icon: reactGif,
-    level: 75,
   },
   {
     name: "WORDPRESS",
     icon: wordpressGif,
-    level: 40,
   },
   {
     name: "SEO",
     icon: seoGif,
-    level: 75,
   },
   {
     name: "Figma",
     icon: figmaGif,
-    level: 75,
   },
   {
     name: "Sass",
     icon: sassGif,
-    level: 75,
   },
 ];

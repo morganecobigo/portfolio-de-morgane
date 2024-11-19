@@ -16,13 +16,6 @@ function Skills({ id }) {
             />
             <div className="skill-details">
               <span className="skill-name">{skill.name}</span>
-              <div className="skill-thermometer">
-                <div
-                  className="thermo-fill"
-                  style={{ height: `${skill.level}%` }}
-                ></div>
-              </div>
-              <span className="skill-level">{skill.level}%</span>
             </div>
           </div>
         ))}

@@ -43,31 +43,6 @@
   margin-bottom: 8px; /* Espace entre le nom et le thermomètre */
 }
 
-.skill-thermometer {
-  width: 30px;
-  height: 100px;
-  background-color: #e5dcd3;
-  border-radius: 15px;
-  overflow: hidden;
-  position: relative;
-  margin: 10px 0;
-  display: flex;
-  align-items: flex-end; /* Assure que le remplissage commence en bas */
-}
-
-.thermo-fill {
-  background-color: #d9c8b8;
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  transition: height 0.3s ease;
-}
-
-.skill-level {
-  color: #333333;
-  font-size: 15px;
-  margin-top: 5px; /* Espace entre le thermomètre et le niveau de compétence */
-}
 @media (max-width: 480px) {
   .skills-section h2 {
     font-size: 20px;
