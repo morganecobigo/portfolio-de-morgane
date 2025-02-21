@@ -9,10 +9,7 @@ const About = ({ id }) => {
       <div className="about-me">
         <img src={photo} alt="me" className="photo_morgane" />
         <div className="about-text">
-          <p>
-            Bonjour, je suis Morgane Cobigo, Développeuse Intégrateur Web
-            Junior.
-          </p>
+          <p>Bonjour, je suis Morgane Cobigo, Développeuse Intégratrice Web.</p>
           <p>
             Reconverti dans le numérique depuis janvier 2024, J'ai suivi une
             formation intensive de 9 mois chez OpenClassrooms en tant

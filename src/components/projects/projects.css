@@ -1,12 +1,17 @@
 .projects {
   text-align: center;
-  padding: 60px;
+  padding: 90px;
+  margin-top: 10px;
   background-color: #d9c8b8;
+  border-radius: 60% 140% 60% 140%;
+  margin: 10px;
 }
 h3 {
   font-size: 30px;
   font-weight: bold;
   color: #333333;
+  margin-top: 0;
+  margin-bottom: 60px;
 }
 .projects-container {
   display: flex;
@@ -117,6 +122,9 @@ h3 {
 }
 
 @media (max-width: 768px) {
+  h3 {
+    font-size: 25px;
+  }
   .project-card {
     width: 40%;
   }
@@ -126,16 +134,13 @@ h3 {
 }
 @media (max-width: 480px) {
   h3 {
-    font-size: 20px;
+    font-size: 15px;
   }
   .projects-container {
     display: flex;
     flex-direction: column;
   }
   .project-card {
-    width: 90%;
-  }
-  .project-image {
-    height: auto;
+    width: 100%;
   }
 }

@@ -1,54 +1,49 @@
 .cover {
   position: relative;
-  height: 100vh;
+  height: 60vh;
   overflow: hidden;
   display: flex;
-  justify-content: center; /* Centre horizontalement */
-  align-items: center; /* Centre verticalement */
-  padding: 60px;
+  justify-content: center;
+  align-items: center;
 }
 
 .image_morgane {
   position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
-  height: 100%;
   object-fit: cover;
 }
 
 .description {
   position: relative;
-  z-index: 2; /* Assure que le texte est au-dessus de l'image */
+  z-index: 2;
   text-align: center;
-  padding: 20px;
   animation: fadeInText 2s ease-out forwards;
 }
 
 .portfolio-title {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bold;
   margin: 0;
   color: #333333;
   animation: fadeSlide 1.5s ease-out forwards;
-  animation-delay: 0.5s; /* Délai pour l'apparition du titre */
+  animation-delay: 0.5s;
 }
 
 .portfolio-subtitle {
-  font-size: 30px;
+  font-size: 20px;
   color: #333333;
   margin-top: 10px;
   animation: fadeSlide 1.5s ease-out forwards;
-  animation-delay: 1.5s; /* Délai pour l'apparition du sous-titre */
+  animation-delay: 1.5s;
 }
 
 .portfolio-text {
-  font-size: 20px;
+  font-size: 10px;
   color: #333333;
   line-height: 1.5;
   margin-top: 10px;
   animation: fadeSlide 1.5s ease-out forwards;
-  animation-delay: 2.5s; /* Délai pour l'apparition du texte */
+  animation-delay: 2.5s;
 }
 
 @keyframes fadeSlide {
@@ -71,16 +66,12 @@
   }
 }
 
-@media (max-width: 768px) {
-  .cover {
-    height: 75vh;
-  }
-}
 @media (max-width: 480px) {
   .cover {
     height: 22vh;
   }
   .description {
+    margin-right: 80px;
   }
   .portfolio-title {
     font-size: 20px;

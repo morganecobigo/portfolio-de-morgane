@@ -1,3 +1,4 @@
+import emailjs from "emailjs-com";
 import React, { useState } from "react";
 import "./contact.css";
 
@@ -10,22 +11,34 @@ function Contact({ id }) {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value,
-    });
+    setFormData({ ...formData, [name]: value });
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Ici, vous pouvez envoyer les données du formulaire à un backend ou une API
-    console.log("Formulaire soumis:", formData);
-    // Réinitialiser le formulaire après l'envoi
-    setFormData({
-      name: "",
-      email: "",
-      message: "",
-    });
+
+    emailjs
+      .send(
+        "YOUR_SERVICE_ID", // Remplacez par votre Service ID
+        "YOUR_TEMPLATE_ID", // Remplacez par votre Template ID
+        formData,
+        "YOUR_USER_ID" // Remplacez par votre Public Key (User ID)
+      )
+      .then(
+        (response) => {
+          console.log(
+            "Email envoyé avec succès!",
+            response.status,
+            response.text
+          );
+          alert("Votre message a été envoyé avec succès !");
+          setFormData({ name: "", email: "", message: "" });
+        },
+        (error) => {
+          console.error("Erreur lors de l'envoi de l'email:", error);
+          alert("Une erreur est survenue. Veuillez réessayer.");
+        }
+      );
   };
 
   return (

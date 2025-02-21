@@ -19,9 +19,9 @@
 }
 
 .photo_morgane {
-  width: 150px;
+  width: 20%;
   height: auto;
-  border-radius: 8px;
+  border-radius: 50% 50% 0 0;
 }
 
 .about-text {
@@ -31,14 +31,23 @@
   text-align: left;
   max-width: 600px;
 }
+@media (max-width: 768px) {
+  .photo_morgane {
+    width: 40%;
+  }
+}
 @media (max-width: 480px) {
   .about-me {
     display: block;
   }
   h2 {
-    font-size: 20px;
+    font-size: 15px;
+  }
+  .photo_morgane {
+    width: 60%;
   }
   .about-text {
     text-align: center;
+    font-size: 12px;
   }
 }

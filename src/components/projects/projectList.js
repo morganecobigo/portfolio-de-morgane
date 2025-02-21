@@ -1,5 +1,13 @@
 export const projectList = [
   {
+    title: "Just-For-Dream",
+    description:
+      "conception complète de ce projet en react.js, optimisation du site...",
+    image: require("../../assets/imagemodal/just-for-dream.webp"),
+    autres: ["HTML", "CSS", "React.js"],
+    link: "https://www.just-for-dream.fr/",
+  },
+  {
     title: "Riding cities",
     description:
       "Actualisation de la page Internet de Riding Cities. J'ai créé une nouvelle section, “Les membres fondateurs”, avec les noms et photos des créateurs de l’association. J'ai modifié la section comprenant le bouton “Télécharger le planning de cours” pour ajouter un titre et deux boutons permettant de télécharger deux plannings de cours différents (un pour les enfants et un pour les adultes).",

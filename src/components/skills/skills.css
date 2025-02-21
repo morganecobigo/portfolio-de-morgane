@@ -7,7 +7,8 @@
 
 .skills-section h2 {
   color: #333333;
-  font-size: 30px;
+  font-size: 25px;
+  padding-bottom: 10px;
 }
 
 .skills-list {
@@ -45,7 +46,7 @@
 
 @media (max-width: 480px) {
   .skills-section h2 {
-    font-size: 20px;
+    font-size: 15px;
   }
   .skill-item {
     width: 50px;
